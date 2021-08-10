@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('../css/fonts/RobotoSlab-Bold.ttf');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('../css/fonts/Raleway-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+h1, h2 {
+    font-family: 'Roboto Slab' !important;
+}
+h3, h4, h5, h6, p, span, a, th, td {
+    font-family: 'Raleway' !important;
+}
+a {
+    text-decoration: unset !important;
+}
+.Toastify__toast-body {
+    font-size: 20px !important;
+}

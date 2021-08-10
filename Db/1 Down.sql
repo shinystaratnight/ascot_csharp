@@ -1,0 +1,22 @@
+Drop Table If Exists Auditrowentities ;
+Drop Table If Exists Auditrow ;
+Drop Table If Exists Loggedinuser ;
+Drop Table If Exists Usergroup ;
+Drop Table If Exists Lineapplicationforpayment ;
+Drop Table If Exists Applicationforpayment ;
+Drop Table If Exists Creditcheck ;
+Drop Table If Exists Jobapproval ;
+Drop Table If Exists Nondoorvariation ;
+Drop Table If Exists Door ;
+Drop Table If Exists Doortype ;
+Drop Table If Exists Lineitem ;
+Drop Table If Exists Nettordiscount ;
+Drop Sequence If Exists Jobidperyear ;
+Drop Table If Exists Job ;
+Drop Table If Exists Customer ;
+Drop Table If Exists Address ;
+
+Drop Type If Exists Usergroupname ;
+Drop Type If Exists Doortypename ;
+Drop Type If Exists Doorstage ;
+Drop Type If Exists Jobstage ;
